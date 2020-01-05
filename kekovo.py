@@ -19,12 +19,12 @@ n = 0
 
 
 #авторизация бота
-tele_token = '906268583:AAHIGqA1LHF1kQj1WIr60ufl1_mLSrsM2ao'
+tele_token = 'Токен бота из телеги'
 bot = telebot.TeleBot(token = tele_token)
 
 
 #авторизация вк
-vk_token = 'c7f20537bcb704864b258eca9f08be0dd854512728470d2df54dd349277cea86914d7901fd69b129358de' #бот пока только со мной работает
+vk_token = 'токен вк с разрешением на использование методов wall' #бот пока только со мной работает
 vk_session = vk.Session(vk_token)
 vk_api = vk.API(vk_session, v = '5.103')
 
